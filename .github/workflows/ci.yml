@@ -1,0 +1,8 @@
+name: super linter POC
+on:
+  push:
+    branches:
+    - main
+jobs:
+  staticAalysis:
+    uses: ./.github/workflows/linter.yml
